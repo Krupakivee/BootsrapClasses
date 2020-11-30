@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ProductInfo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+            <a class="navbar-brand" href="#"><img src="img/logo5.png" height="50px" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100"
+                id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">Category</a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item" href="#">Women</a></li>
+                            <li><a class="dropdown-item" href="#">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AboutUs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ContactUs</a>
+                    </li>
+
+                </ul>
+                <div class="search-container">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item"><a class="nav-link" href="">Sign in <i class="fa fa-user"></i></a> </li>
+                    <li class="nav-item"><a class="nav-link" href="">View Cart <i class="fa fa-shopping-cart"></i></a>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-instagram"></i></a></li> -->
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5 ">
+        <h2 class="text-center">STRAIGHT LEG JEAN IN WHITE</h2>
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/p1.jpg" class="img-fluid" alt="Card Back" width="100%" height="600px">
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/p2.jpg" class="img-fluid" alt="Card Front" width="100%" height="600px">
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <span><b>Price</b></span>
+                <p class="price">$79</p>
+                <p><b>Quantity</b></p>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus"
+                            data-field="">
+                            <span class="fa fa-minus"></span>
+                        </button>
+                    </span>
+                    <input type="text" id="quantity" name="quantity" class="text-center form-control input-number"
+                        value="0" min="1" max="50">
+                    <span class="input-group-btn">
+                        <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus"
+                            data-field="">
+                            <span class="fa fa-plus"></span>
+                        </button>
+                    </span>
+                </div>
+                <p class="mt-3"><b>Select Size</b></p>
+                <div class="mt-1 mb-5">
+                    <div class="form-check form-check-inline pl-0">
+                        <input type="radio" class="form-check-input" id="small" name="materialExampleRadios" checked>
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="small">S</label>
+                    </div>
+                    <div class="form-check form-check-inline pl-0">
+                        <input type="radio" class="form-check-input" id="medium" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="medium">M</label>
+                    </div>
+                    <div class="form-check form-check-inline pl-0">
+                        <input type="radio" class="form-check-input" id="large" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="large">L</label>
+                    </div>
+                    <div class="form-check form-check-inline pl-0">
+                        <input type="radio" class="form-check-input" id="elarge" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="large">XL</label>
+                    </div>
+                    <div class="form-check form-check-inline pl-0">
+                        <input type="radio" class="form-check-input" id="eelarge" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="large">XXL</label>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <button class="btn btn-secondary btn-block">Add To cart</button>
+                </div>
+                <div>
+                    <p><b>Product Description</b></p>
+                    <p class="text-justify">Meet the Throwback Jean - the Shopping Traders version of the 'Mom Jean'. We've taken this trend
+                        and re-invented it just for you. Cut from 10 ounce rigid denim, mid rise and perfectly
+                        distressed. This wear anywhere style will take you from day to night with ease </p>
+                </div>
+                <div class="mt-5 mb-3">
+
+                    <a data-toggle="collapse" href="#detail" aria-expanded="false">Detail</a>
+                    <div class="collapse" id="detail">
+                        <li>garment dyed black</li>
+                        <li>button down fly</li>
+                        <li>relaxed fit</li>
+                        <li>raw hem</li>
+                        <li>designed to fade</li>
+                        <li>perfectly distressed</li>
+                        <li>cold machine wash</li>
+                        <li>wear them in, love them for life</li>
+                    </div>
+                    <a data-toggle="collapse" href="#review" aria-expanded="false">Rating</a>
+                    <div class="collapse" id="review">
+                        <div class="row">
+                            <ul class="row productrating">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="row ml-3">
+                                <div class="col text-center">
+                                    <a href="#" data-toggle="modal" data-target="#writereview">Write Review</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a data-toggle="collapse" href="#share" aria-expanded="false">Share</a>
+                    <div class="collapse" id="share">
+                        <div class="row">
+                            <ul class="row productrating">
+                                <li><i class="fa fa-instagram mr-3"></i></li>
+                                <li><i class="fa fa-twitter mr-3"></i></li>
+                                <li><i class="fa fa-facebook mr-3"></i></li>
+                                <li><i class="fa fa-envelope"></i></li>
+                                <!-- <li><i class="fa fa-star"></i></li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="writereview" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">Review</h4>
+                                    <button type="button" class="close" data-dismiss="modal" ar ia-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <img src="img/p2.jpg" class="img-fluid" alt="Card Back" width="100%"
+                                                height="600px">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <form method="post">
+                                                <div class="row">
+                                                    <div class="form-group col-sm-12">
+                                                        <label>Rating</label>
+                                                        <div
+                                                            class="starrating risingstar flex-row-reverse d-flex justify-content-center">
+                                                            <input type="radio" id="star5" name="rating"
+                                                                value="5" /><label for="star5" title="5 star"></label>
+                                                            <input type="radio" id="star4" name="rating"
+                                                                value="4" /><label for="star4" title="4 star"></label>
+                                                            <input type="radio" id="star3" name="rating"
+                                                                value="3" /><label for="star3" title="3 star"></label>
+                                                            <input type="radio" id="star2" name="rating"
+                                                                value="2" /><label for="star2" title="2 star"></label>
+                                                            <input type="radio" id="star1" name="rating"
+                                                                value="1" /><label for="star1" title="1 star"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-sm-12">
+                                                        <label>Name</label>
+                                                        <input type="text" class="form-control" name="name" required="">
+                                                    </div>
+                                                    <div class="form-group col-sm-12">
+                                                        <label>Email</label>
+                                                        <input type="email" class="form-control" name="email"
+                                                            required="">
+                                                    </div>
+                                                    <div class="form-group col-sm-12">
+                                                        <label>Review Subject</label>
+                                                        <input type="text" class="form-control" name="rsubject"
+                                                            required="">
+                                                    </div>
+                                                    <div class="form-group col-sm-12">
+                                                        <label>Comments</label>
+                                                        <textarea class="form-control" name="comments" required rows="5"
+                                                            cols="3"></textarea>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="text-center pt-4 bg-dark ">
+        <div class="footer-copyright text-center py-2">
+            <p class="textfooter mb-3">Copyright &copy; 2019 All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
