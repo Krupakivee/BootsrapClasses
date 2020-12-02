@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+            <a class="navbar-brand" href="#"><img src="img/logo5.png" height="50px" width="200px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100"
+                id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">Category</a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item" href="#">Women</a></li>
+                            <li><a class="dropdown-item" href="#">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">AboutUs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">ContactUs</a>
+                    </li>
+
+                </ul>
+                <div class="search-container">
+                    <input type="text" placeholder="Search.." name="search"><button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item"><a class="nav-link" href="">Sign in <i class="fa fa-user"></i></a> </li>
+                    <li class="nav-item">
+                        <div id="cart-container">
+                            <div id="cart">
+                                <i class="fa fa-shopping-cart fa-2x openCloseCart" aria-hidden="true"></i>
+                            </div>
+                            <span id="counter" class="badge badge-light"></span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col">
+            <div id="shoppingCart">
+                <div id="cartItemsContainer">
+                    <h2>Items in your cart</h2>
+                    <i class="fa fa-times-circle-o fa-3x openCloseCart" aria-hidden="true"></i>
+                    <div id="cartItems"></div>
+                    <span id="cartTotal"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/tred1.jpg" alt="" width="100%"
+                                    height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Neck T-shirt</b></h4>
+                            <p class="price-container">Price: $<span class="price">10</span></p>
+                            <p>Black and grey colourblocked T-shirt, has a round neck, long sleeves.</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/men3.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Casual Shirt</b></h4>
+                            <p class="price-container">Price: $<span class="price">25</span></p>
+                            <p>Navy blue and grey colourblocked casual shirt, has a spread collar, long sleeves.</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/men6.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Collar T-shirt</b></h4>
+                            <p class="price-container">Price: $<span class="price">15</span></p>
+                            <p>White and Navy Blue colourblocked T-shirt and short sleeves.The model is wearing a size M
+                            </p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/men8.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Hood T-shirt</b></h4>
+                            <p class="price-container">Price: $<span class="price">20</span></p>
+                            <p>Charcoal Grey and Black colourblocked T-shirt, has a hood, and long sleeves</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/mk1.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Straight Kurta</b></h4>
+                            <p class="price-container">Price: $<span class="price">36</span></p>
+                            <p>Turquoise Blue colourblocked straight kurta, has a mandarin collar straight kurta</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/mk3.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Straight Kurta</b></h4>
+                            <p class="price-container">Price: $<span class="price">25</span></p>
+                            <p>Black and maroon colourblocked straight kurta, has a shirt collar,straight kurta</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/mk5.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Asymmetric Kurta</b></h4>
+                            <p class="price-container">Price: $<span class="price">25</span></p>
+                            <p>Blue colourblocked A-line kurta, has a mandarin collar, long sleeves, has a mandarin
+                                collar</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="itemDetails">
+                        <div class="itemImage">
+                            <a href="ProductInfo.html"><img src="img/mk9.jpg" alt="" width="100%" height="200px" /></a>
+                        </div>
+
+                        <div class="itemText">
+                            <h4 class="mt-2"><b>Simple Kurta</b></h4>
+                            <p class="price-container">Price: $<span class="price">10</span></p>
+                            <p>Blue and white printed straight kurta, has a mandarin collar, button closures, long
+                                sleeves, straight hem</p>
+                        </div>
+                    </div>
+                    <button class="add btn btn-danger">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="text-center pt-4 bg-dark ">
+        <div class="footer-copyright text-center py-2">
+            <p class="textfooter mb-3">Copyright &copy; 2019 All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+</body>
+
+</html>
